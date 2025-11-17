@@ -1,0 +1,58 @@
+{
+  "about": [
+    {
+      "id": 1,
+      "title": "About Me",
+      "description": "Passionate developer with experience in web development",
+      "image": "assets/Profil.jpg"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "category": "Frontend",
+      "items": ["React", "TypeScript", "Tailwind CSS", "Vue.js"]
+    },
+    {
+      "id": 2,
+      "category": "Backend",
+      "items": ["Node.js", "Express", "MongoDB", "PostgreSQL"]
+    },
+    {
+      "id": 3,
+      "category": "Tools",
+      "items": ["Git", "Docker", "VS Code", "Figma"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Project 1",
+      "description": "Amazing project description",
+      "image": "/project1.jpg",
+      "technologies": ["React", "TypeScript", "Tailwind"],
+      "link": "https://example.com"
+    },
+    {
+      "id": 2,
+      "title": "Project 2",
+      "description": "Another great project",
+      "image": "/project2.jpg",
+      "technologies": ["Node.js", "Express", "MongoDB"],
+      "link": "https://example.com"
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "email": "manuekebryan06@gmail.com",
+      "phone": "085395871109",
+      "address": "Manado, Indonesia",
+      "social": {
+        "github": "https://github.com/BryanManueke",
+        "linkedin": "https://linkedin.com",
+        "twitter": "https://twitter.com"
+      }
+    }
+  ]
+}
