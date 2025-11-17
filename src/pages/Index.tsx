@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, MapPin, GraduationCap, Code, MessageCircle, Heart, Book, Music, Camera, Sparkles, Terminal } from 'lucide-react';
 import { useAbout } from "@/hooks/useAPI";
 import { Skeleton } from "@/components/ui/skeleton";
+import Profil from "@/assets/img/Profil.jpg";
 
 // Simulated JSON Server data
 const portfolioData = {
@@ -11,7 +12,6 @@ const portfolioData = {
     university: "Klabat University",
     location: "Manado, North Sulawesi",
     bio: "Computer Science student passionate about building digital solutions and analyzing data to solve real-world problems.",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Bryan",
     email: "bryan.manueke@example.com",
     whatsapp: "https://wa.me/6281234567890",
     github: "https://github.com/bryanmanueke",
@@ -139,8 +139,6 @@ function Portfolio() {
     }, 600);
   };
 
-  const profileImage = aboutData && aboutData.length > 0 ? aboutData[0].image : data.profile.image;
-
   return (
     <div className="min-h-screen bg-slate-50 relative overflow-hidden">
 
@@ -204,7 +202,7 @@ function Portfolio() {
                   <Skeleton className="w-full h-full" />
                 ) : (
                   <img
-                    src={profileImage}
+                    src={Profil}
                     alt={data.profile.name}
                     className="w-full h-full object-cover"
                   />

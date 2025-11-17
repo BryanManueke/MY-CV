@@ -1,6 +1,5 @@
 import { Code2, Palette, Rocket } from "lucide-react";
 import { Card } from "@/components/ui/card";
-
 const About = () => {
   const features = [
     {
@@ -23,11 +22,12 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-secondary/30">
       <div className="container px-4">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 bg-gradient-primary bg-clip-text text-transparent">
             Tentang Saya
           </h2>
-          <p className="text-lg text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
+
+          <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
             Saya adalah seorang developer yang passionate dalam menciptakan aplikasi web yang tidak hanya 
             fungsional tetapi juga memiliki tampilan yang menarik dan user experience yang optimal.
           </p>

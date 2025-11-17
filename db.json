@@ -4,7 +4,7 @@
       "id": 1,
       "title": "About Me",
       "description": "Passionate developer with experience in web development",
-      "image": "assets/Profil.jpg"
+      "image": "../assets/img/Profil.jpg"
     }
   ],
   "skills": [
